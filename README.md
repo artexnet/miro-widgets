@@ -35,5 +35,3 @@ There are multiple ways you can start/run the Server:
     * <code>docker build -t miro-widgets .</code>
     * <code>docker run -p 8080:8080 miro-widgets</code> 
 
-
-##### @artexnet
