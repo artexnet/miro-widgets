@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name:
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+storage:
+  type: local  # local | database
+  enableDefault: true
+api:
+  settings:
+    title: Miro widgets API
+    description: Miro widgets REST API v1
+    version: 0.0.1
+contants:
+  name: Miro
+  url: https://miro.com/
+  email: community@miro.com
