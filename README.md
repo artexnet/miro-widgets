@@ -1,6 +1,6 @@
 # Miro Widgets API
 
-## Prerequisites:
+## Prerequisites
 * All changes to widgets must occur atomically.
 * Assuming 90% of load distribution is read operations.
 * The Z-index must be unique.
@@ -12,7 +12,7 @@ Storage type can be explicitly specified in the configuration file "application.
 one of two possible values should be specified: <code>local | database</code>
 
 Alternatively the storage type can be set by specifying a Spring execution profile when 
-running the server
+starting the server (see section <b>Run</b>)
 
 #### Note: explicit configuration has a priority
 
